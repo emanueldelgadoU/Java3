@@ -2007,3 +2007,10 @@ java.lang.NumberFormatException: For input string: "jsr14"
 2022-03-23 20:18:58,928 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\alumno\eclipse-workspace\MavenProject\Server\PruebaServer\src\main\resources
 2022-03-23 20:18:58,929 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-03-23 20:18:58,930 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\alumno\eclipse-workspace\MavenProject\Server\PruebaServer\src\test\resources
+2022-03-23 20:37:18,348 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-03-23 20:37:25,222 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-23 20:37:25,222 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\alumno\Desktop\fx\MiJavaFx\src\main\resources
+2022-03-23 20:37:25,253 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-23 20:37:25,254 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\alumno\Desktop\fx\MiJavaFx\src\test\resources
+2022-03-23 20:41:50,550 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-23 20:41:50,550 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\alumno\eclipse-workspace\MavenProject\Server\PruebaServer\src\main\resources
