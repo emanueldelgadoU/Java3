@@ -1,0 +1,31 @@
+package PrimerosPasos;
+
+public class CuentaCorriente {
+
+	
+	//Propiedades
+	private String numero;
+	private double saldo;
+	
+	//Constructor
+	CuentaCorriente() {
+		this.saldo=0;
+		this.numero="ES1010101010101010";
+		
+		
+		
+}
+
+	public CuentaCorriente(String numero, double salgo) {
+		super();
+		this.numero = numero;
+		this.saldo = salgo;
+	}
+
+	@Override
+	public String toString() {
+		return "CuentaCorriente [numero=" + numero + ", saldo=" + saldo + "]";
+	}
+}
+
+

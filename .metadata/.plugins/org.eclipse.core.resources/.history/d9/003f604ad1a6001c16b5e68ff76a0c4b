@@ -1,0 +1,76 @@
+package Tienda;
+import java.time.LocalDate;
+import java.util.Scanner;
+
+
+public class Test {
+
+	public static void main(String[] args){
+		// TODO Auto-generated method stub
+		Categoria moviles = new Categoria("moviles");
+		Categoria perifericos = new Categoria("perifericos");
+		Producto p1  = new Producto("IP13", "Tel apple", moviles, 100, 20);
+		Producto p2  = new Producto("Logitech", "Raton gaming", perifericos, 200, 20);
+		
+		ClienteRegistrado cr1 = new ClienteRegistrado("Javier", "Guillen", "123456d","casa", "Cuevas del Almanzora", "javi@gmail.com", "123456d", LocalDate.of(1987, 10, 10));
+		System.out.println("asdasdas");
+		
+		lineaPedido l1 = new lineaPedido(p1, 1);
+		lineaPedido l2 = new lineaPedido(p2, 2);
+		if (cr1.checkPassword("123456d")) {
+			pedido p11 = new pedido(cr1);
+			p11.nuevaLinea(l2);
+			p11.nuevaLinea(l1);
+			System.out.println(p11);
+			try {
+				p11.tuPDF();
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+		} else {
+			System.out.println("No iguales");
+		}
+		
+		int opcion=0;
+		Scanner teclado = new Scanner(System.in);
+		
+
+		System.out.println("Introduce contraseña");
+		String pass=teclado.nextLine();
+		
+		if (pass.checkPassword("123456d")) {
+			do {
+	
+				
+				System.out.println("Elige una opcion");
+				System.out.println("===========");
+				System.out.println("- 0. Salir del programa");
+				System.out.println("- 1. Comprar");
+				System.out.println("- 2. Estado del pedido");
+				System.out.println("- 3. Imprimir PDF del pedido");
+	
+				opcion=Integer.parseInt(teclado.nextLine());
+				
+				switch (opcion) {
+				
+				case 1:
+					
+			
+					break;
+					
+				case 2:
+				
+					break;
+					
+				case 3:
+				
+					break;
+					
+				case 0:
+					System.out.println("Hasta pronto");
+				}
+			} while (opcion!=0);
+		}
+	}
+}
+

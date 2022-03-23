@@ -1,0 +1,7 @@
+package AlquilerPeliculas;
+
+public enum Genero {
+	
+THRILLER, ACCION, AVENTURAS, ROMANTICA, TERROR, INFANTILES, SCIFI, DRAMA, COMEDIA, ORIENTAL
+
+}

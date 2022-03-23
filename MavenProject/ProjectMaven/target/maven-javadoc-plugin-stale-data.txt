@@ -1,0 +1,49 @@
+@options
+@packages
+@argfile
+-classpath
+'C:/Users/alumno/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'1.7'
+-sourcepath
+'C:/Users/alumno/eclipse-workspace/MavenProject/ProjectMaven/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2022. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/alumno/eclipse-workspace/MavenProject/ProjectMaven/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'ProjectMaven 0.0.1-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/javase/7/docs/api' 'C:/Users/alumno/eclipse-workspace/MavenProject/ProjectMaven/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'ProjectMaven 0.0.1-SNAPSHOT API'
+org.jaroso.ProjectMaven
+'C:/Users/alumno/eclipse-workspace/MavenProject/ProjectMaven/src/main/java/org/jaroso/ProjectMaven/App.java'
+C:\Users\alumno\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar = 1647618467920
+C:\Users\alumno\eclipse-workspace\MavenProject\ProjectMaven\src\main\java = 1647618212642
+C:\Users\alumno\eclipse-workspace\MavenProject\ProjectMaven\target\site\apidocs\allclasses-index.html = 1647619152339
+C:\Users\alumno\eclipse-workspace\MavenProject\ProjectMaven\target\site\apidocs\allpackages-index.html = 1647619152343
+C:\Users\alumno\eclipse-workspace\MavenProject\ProjectMaven\target\site\apidocs\element-list = 1647619152235
+C:\Users\alumno\eclipse-workspace\MavenProject\ProjectMaven\target\site\apidocs\help-doc.html = 1647619152420
+C:\Users\alumno\eclipse-workspace\MavenProject\ProjectMaven\target\site\apidocs\index-all.html = 1647619152364
+C:\Users\alumno\eclipse-workspace\MavenProject\ProjectMaven\target\site\apidocs\index.html = 1647619152368
+C:\Users\alumno\eclipse-workspace\MavenProject\ProjectMaven\target\site\apidocs\jquery-ui.overrides.css = 1647619152523
+C:\Users\alumno\eclipse-workspace\MavenProject\ProjectMaven\target\site\apidocs\member-search-index.js = 1647619152351
+C:\Users\alumno\eclipse-workspace\MavenProject\ProjectMaven\target\site\apidocs\module-search-index.js = 1647619152346
+C:\Users\alumno\eclipse-workspace\MavenProject\ProjectMaven\target\site\apidocs\overview-tree.html = 1647619152306
+C:\Users\alumno\eclipse-workspace\MavenProject\ProjectMaven\target\site\apidocs\package-search-index.js = 1647619152348
+C:\Users\alumno\eclipse-workspace\MavenProject\ProjectMaven\target\site\apidocs\script.js = 1647619152436
+C:\Users\alumno\eclipse-workspace\MavenProject\ProjectMaven\target\site\apidocs\search.js = 1647619152442
+C:\Users\alumno\eclipse-workspace\MavenProject\ProjectMaven\target\site\apidocs\stylesheet.css = 1647619152435
+C:\Users\alumno\eclipse-workspace\MavenProject\ProjectMaven\target\site\apidocs\tag-search-index.js = 1647619152352
+C:\Users\alumno\eclipse-workspace\MavenProject\ProjectMaven\target\site\apidocs\type-search-index.js = 1647619152349

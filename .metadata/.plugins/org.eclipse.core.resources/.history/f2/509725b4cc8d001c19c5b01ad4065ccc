@@ -1,0 +1,47 @@
+package PokerDados;
+
+import java.util.Scanner;
+
+public class TestJuego {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner teclado = new Scanner(System.in);
+		int opcion;
+		
+		do {
+		
+			System.out.println("Dime el nombre del jugador 1");
+			String jugador1=teclado.nextLine();
+			System.out.println("Dime el nombre del jugador 2");
+			String jugador2=teclado.nextLine();
+			
+			
+			//SE CREAN DOS OBJETOS DE JUGADORES
+			Jugador player1 = new Jugador(jugador1);
+			Jugador player2 = new Jugador(jugador2);
+		
+			
+			//SE CREA UN OBJETO JUEGO
+			Juego juego1 = new Juego (player1, player2);
+		
+			
+			System.out.println("Quieres jugar otra partida?");
+			System.out.println("Pulsa 1 para jugar");
+			System.out.println("Pulsa 2 tecla para Salir");
+			opcion=Integer.parseInt(teclado.nextLine());
+		
+			
+		} while (opcion==1);	
+		
+		System.out.println("Numero de partidas jugadas "+ Juego.numPartidas);
+		System.out.println(Juego.numPartidas);
+		
+	
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,24 @@
+
+public class Perico {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int a=5;
+		int b=2;
+		int d=2;
+		double primera;
+		double segunda;
+		
+		
+		primera=(Math.pow(a, 3)*b)/(2*a*Math.pow(b, 2));
+		segunda=Math.sqrt(12*Math.pow(d, 4));
+		
+				
+		System.out.println(primera-segunda);
+			
+		
+		
+	}
+
+}

@@ -1,0 +1,30 @@
+package GestionDeEmpleados;
+
+public class TestGestion {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	
+	Comercial comercial01 = new Comercial("Pepe", 32, 1200, 210);
+	Comercial comercial02 = new Comercial("Juan", 32, 1200, 190);
+	//SE COMPRUEBA QUE FUNCIONA EL PLUS
+	comercial01.calcularPlus();
+	comercial02.calcularPlus();
+	System.out.println(comercial01);
+	System.out.println(comercial02);
+	System.out.println();
+
+	
+	
+	Repartidor repartirdor01 = new Repartidor("Batman", 22, 1000, "zona2");
+	Repartidor repartirdor02 = new Repartidor("Batman", 22, 1000, "zona3");
+	//SE COMPRUEBA QUE FUNCIONA EL PLUS
+	repartirdor01.calcularPlus();
+	repartirdor02.calcularPlus();
+	System.out.println(repartirdor01);
+	System.out.println(repartirdor02);
+	
+
+	
+	}
+}

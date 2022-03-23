@@ -1,0 +1,42 @@
+package PrimerosPasos;
+
+public class CuentaCorriente {
+
+	
+	//Propiedades
+	private String numero;
+	private double saldo;
+	
+	//Constructor
+	CuentaCorriente() {
+		this.saldo=0;
+		this.numero= CuentaCorriente.generarNumero();
+		
+		
+		
+}
+
+	public CuentaCorriente(String numero, double salgo) {
+		super();
+		this.numero = numero;
+		this.saldo = salgo;
+	}
+
+	@Override
+	public String toString() {
+		return "CuentaCorriente [numero=" + numero + ", saldo=" + saldo + "]";
+	}
+
+
+
+	public static String generarNumero() {
+		
+		String nuevaCuenta = "ES404040";
+		int num = (int) Math.random()*1200000000;
+		nuevaCuenta=nuevaCuenta+num;
+		
+		return nuevaCuenta;
+	}	
+}
+
+

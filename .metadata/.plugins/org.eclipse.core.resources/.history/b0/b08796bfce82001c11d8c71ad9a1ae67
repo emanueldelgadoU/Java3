@@ -1,0 +1,131 @@
+package Ahoracado;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class AhoracadoTest {
+	
+public static void llenarVectorPorTeclado(String [] vector) {
+		
+	Scanner teclado = new Scanner (System.in);
+		
+	for(int i=0; i<vector.length; i++) {
+		System.out.println("Escribe una palabra "+(i+1)+"/"+vector.length);
+		vector[i]=teclado.nextLine();
+	}
+}
+
+public static void llenarVectorConLaPalabra(String [] vector, String palabra) {
+	
+	for(int i=0; i<vector.length; i++) {
+		vector[i]=palabra.substring(i, i+1);
+	}
+}
+
+public static void llenarVectorConGuin(String [] vector) {
+	
+	for(int i=0; i<vector.length; i++) {
+		vector[i]="-";
+	}
+}
+	
+public static void mostrarVector(String [] vector) {
+		
+	for(int i=0; i<vector.length; i++) {
+		System.out.print(vector[i]+" ");
+	}
+}
+
+public static String palabraAleatoria(String [] vector) {
+	
+	int i = (int) (Math.random()*4);
+	return vector[i];
+}
+
+	public static void main(String[] args) {
+	    // TODO Auto-generated method stub
+	
+	String [] vector = new String[] {"hola","caca","pedo","culo","piss"};
+	
+	String palabra=palabraAleatoria(vector);
+	String letra;
+	int contador=0;
+	int tiradasRestantes=7;
+	
+	String [] vector2 = new String[palabra.length()];
+	String [] vector3 = new String[palabra.length()];
+	
+	llenarVectorConLaPalabra(vector2, palabra);
+	llenarVectorConGuin(vector3);
+	
+	mostrarVector(vector2);
+	System.out.println();
+	
+	Scanner teclado= new Scanner (System.in);
+	do {
+	
+	
+	System.out.println("Introduce una letra");
+	
+	letra=teclado.nextLine();    
+	
+	
+	
+	
+	for (int i = 0; i < vector2.length; i++) {
+	    
+	    if(letra.equalsIgnoreCase(vector2[i])) {
+	        vector3[i]=letra;
+	    }
+	}
+	
+	try {
+	
+	
+	
+	if (palabra.equalsIgnoreCase(letra.substring(9, letra.length()))) {
+			mostrarVector(vector2);
+			
+		System.out.println();
+		System.out.println("La palabra era:");
+			mostrarVector(vector2);
+			System.out.println("Ganastes");
+			System.out.println("!!!!!!!!!!!");
+			break;
+		}
+	
+	} catch (Exception e) {
+		// TODO: handle exception
+	}
+	
+	
+	//Comparo los vectores
+	
+	if (Arrays.equals(vector2, vector3)) {
+		System.out.println("La palabra era:");
+		mostrarVector(vector2);
+		System.out.println("Ganastes");
+		System.out.println("!!!!!!!!!!!");
+		break;
+	}
+	
+	mostrarVector(vector3);
+	System.out.println();
+	
+	contador++;
+	tiradasRestantes--;
+	
+	System.out.println("Te quedan " + tiradasRestantes + " intentos");
+	
+	
+	if (tiradasRestantes==0) {
+		System.out.println("No te quedan intentos. Has perdido");
+		break;
+	}
+	
+	} while (contador!=7);
+	
+	
+	
+	}
+}

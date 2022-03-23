@@ -1,0 +1,57 @@
+package Ahoracado;
+
+import java.util.Arrays;
+
+public class AhoracadoConObjetos {
+
+	//propiedades
+	
+	private static String[] diccionario = {"pelota", "caramelo", "payaso"};
+	private String palabraAAdivinar;
+	private char[] palabraInventada;
+	private char[] letrasProbadas;
+	private int fallos;
+	
+	public AhoracadoConObjetos() {
+		
+		int posicion= (int) (Math.random()*AhoracadoConObjetos.diccionario.length);
+		this.palabraAAdivinar = AhoracadoConObjetos.diccionario[posicion];
+		
+		this.palabraInventada = new char [this.palabraAAdivinar.length()];
+		
+		for (int i = 0; i < this.palabraAAdivinar.length(); i++) {
+			this.palabraInventada[i]='-';
+			
+		this.letrasProbadas = new char[27];
+		this.fallos=0;
+			
+		}
+		
+		
+		
+		
+		
+		
+	}
+
+	@Override
+	public String toString() {
+		StringBuilder builder = new StringBuilder();
+		builder.append("AhoracadoConObjetos [palabraAAdivinar=");
+		builder.append(palabraAAdivinar);
+		builder.append(", palabraInventada=");
+		builder.append(Arrays.toString(palabraInventada));
+		builder.append(", letrasProbadas=");
+		builder.append(Arrays.toString(letrasProbadas));
+		builder.append(", fallos=");
+		builder.append(fallos);
+		builder.append("]");
+		return builder.toString();
+	}
+
+
+	}
+
+	
+
+

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.m2e.core.wizards.Maven2ProjectWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.jdt.ui.java"/>
+			<item value="org.eclipse.m2e"/>
+		</list>
+	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\alumno\Desktop\Tienda"/>
+			<item value="C:\Users\alumno\Desktop\Parking"/>
+			<item value="C:\Users\alumno\Desktop\NNN\Parking"/>
+			<item value="C:\Users\alumno\Desktop\NNN\PractivaObjetos3-Abstraccion-Herencia-Polimorfismo"/>
+			<item value="C:\Users\alumno\Desktop\PractivaObjetos3-Abstraccion-Herencia-Polimorfismo"/>
+			<item value="C:\Users\alumno\Desktop\Herencia"/>
+			<item value="C:\Users\alumno\Desktop\PracticaObjetos2 - copia (2)"/>
+			<item value="C:\Users\alumno\Desktop\PracticaObjetos2 - copia"/>
+			<item value="C:\Users\alumno\Desktop\PracticaObjetos"/>
+			<item value="C:\Users\alumno\Desktop\Nueva carpeta (5)\Practica2"/>
+			<item value="C:\Users\alumno\Desktop\Nueva carpeta (5)\PracticaJava"/>
+			<item value="C:\Users\alumno\Desktop\Nueva carpeta (5)\Strings"/>
+			<item value="C:\Users\alumno\Desktop\Nueva carpeta (5)\Examen"/>
+			<item value="C:\Users\alumno\Desktop\Nueva carpeta (5)\Estructuras basicas de control"/>
+			<item value="C:\Users\alumno\Desktop\Nueva carpeta (5)\Arrays"/>
+			<item value="C:\Users\alumno\Desktop\Examen"/>
+			<item value="C:\Users\alumno\Desktop\Strings"/>
+			<item value="C:\Users\alumno\Desktop\Arrayss"/>
+			<item value="C:\Users\alumno\eclipse-workspace\Estructuras basicas de control"/>
+			<item value="C:\Users\alumno\eclipse-workspace\Estructuras basicas de control\src\PracticaJava2"/>
+			<item value="C:\Users\alumno\Desktop\Estructuras basicas de control"/>
+			<item value="C:\Users\alumno\Desktop\Vivienda"/>
+			<item value="C:\Users\alumno\Desktop\Arrays"/>
+			<item value="C:\Users\alumno\Desktop\practica 1"/>
+		</list>
+	</section>
+	<section name="ExternalProjectImportWizard">
+	</section>
+	<section name="BasicNewProjectResourceWizard">
+	</section>
+</section>

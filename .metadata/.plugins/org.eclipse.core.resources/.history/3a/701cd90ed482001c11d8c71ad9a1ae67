@@ -1,0 +1,18 @@
+package Ahoracado;
+
+public class Ahoracado {
+
+	public static void main(String[] args) {
+	    // TODO Auto-generated method stub
+	
+		
+		AhoracadoConObjetos juego = new AhoracadoConObjetos();
+		
+		System.out.println(juego);
+		
+		
+		
+		
+	}
+
+}

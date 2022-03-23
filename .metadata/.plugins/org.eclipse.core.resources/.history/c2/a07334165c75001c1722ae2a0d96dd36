@@ -1,0 +1,17 @@
+package PrimerosPasos;
+
+public class TestCuentaCorriente {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	CuentaCorriente cc1= new CuentaCorriente();
+	System.out.println(cc1);
+	cc1.ingreso(100);
+	cc1.cargo(10);
+	System.out.println(cc1);
+	
+	
+	}
+
+}

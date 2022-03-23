@@ -1,0 +1,48 @@
+package PokerDados;
+
+public class Juego {
+	
+		//PROPIEDADES
+		Jugador jugador1;
+		Jugador jugador2;
+		static int numPartidas;
+		
+		//CONSTRUCTOR
+		public Juego(Jugador jugador1, Jugador jugador2) {
+			super();
+			this.jugador1 = jugador1;
+			this.jugador2 = jugador2;
+			numPartidas++;
+			jugar(jugador1,jugador2);
+			mostrarResultado(jugador1, jugador2);
+		}
+		
+		public void jugar(Jugador jugador1, Jugador jugador2) {
+			
+			jugador1.tirada();
+			jugador2.tirada();
+			System.out.println(jugador1.valorTirada());
+			System.out.println(jugador1.valorTirada());
+			
+		//	if (jugador1.getTirada()[0]==jugador2.getTirada()[0]) {	
+		//	}
+
+
+			
+			if (jugador1.valorTirada()[0]>jugador2.valorTirada()[0]){
+				jugador1.setHaGanado(true);
+			}
+			
+			if (jugador2.valorTirada()[0]>jugador1.valorTirada()[0]) {
+				jugador2.setHaGanado(true);
+			}
+			
+		
+		}
+
+		public void mostrarResultado(Jugador jugador1, Jugador jugador2) {
+			System.out.println(jugador1);
+			System.out.println(jugador2);
+		}
+		
+}
